@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
+set -x
 
-# Placeholder for the fswatch
 fswatch -1 "/Volumes/MEDIA" | xargs ./copy.sh
