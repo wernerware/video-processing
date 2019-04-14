@@ -19,6 +19,3 @@ fswatch: https://github.com/emcrisostomo/fswatch
 4. Bash scripting
 ### OS
 1. Mac OS Mojave
-
-## Handbrake CLI command example used in the video (not integrated yet)
-    HandBrakeCLI -i Encode_1080P_26_8.mp4 -o test_out.mp4 --cfr

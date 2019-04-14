@@ -10,4 +10,4 @@ mkdir $tmpDir
 cp /Volumes/MEDIA/* $tmpDir || { echo "FAILED TO COPY"; exit 1; }
 rm /Volumes/MEDIA/* || { echo "FAILED TO DELETE FILES"; exit 1; }
 diskutil unmount /Volumes/MEDIA
-./convert_to_cfr.sh $tmpDir
+./convert_to_cfr.sh $tmpDir "$toDir"
