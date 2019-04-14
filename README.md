@@ -2,7 +2,7 @@
 This is a scripting project created to assist me in transferring video files off of a usb drive and processing them using Handbrake.  It does not work yet because it is a work in progress.  Furthermore, for the time being, it is designed to fit my own situation rather handly and zero effort has been taken to generalize the technologies or platforms used.
 
 ## Video
-This project is the subject of a video on the Wernerware Software video channel on YouTube.  A link will be posted as soon as it is available!
+This project is the subject of a video on the Wernerware Software video channel on YouTube.  Check it out at: https://youtu.be/UD-pwb8TeZA
 
 ## Sources
 Applescript file chooser: http://oranj.io/blog/Open-File-Dialog-from-the-Shell
