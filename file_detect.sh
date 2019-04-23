@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -x
 
-fswatch -1 "/Volumes/MEDIA" | xargs ./copy.sh
+folderName="wernerware_transfer_and_crunch"
+fswatch -0 "/Volumes/MEDIA" | xargs -0 -n 1 -I {} ~/${folderName}/copy.sh
